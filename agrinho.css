@@ -1,0 +1,119 @@
+/* Configurações Gerais / Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.interface {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.logo h1 span {
+    color: #27ae60; /* Verde Sustentável */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #27ae60;
+}
+
+/* Seção Hero (Destaque) */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.hero-txt {
+    max-width: 600px;
+}
+
+.hero-txt h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-txt p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #27ae60;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #219653;
+}
+
+/* Seção Pilares */
+.pilares {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.titulo-secao {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 40
+}
